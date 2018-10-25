@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>SIEST DF - Sistema de Informações das Empresas Estatais</title>
+  <title>SIEST DF | Alterar senha</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -31,45 +31,43 @@
 <div class="login-box">
   <div class="login-logo">
     <center>
-    <img href="#" src="http://www.df.gov.br/wp-conteudo/uploads/2015/10/Bras%C3%A3o_do_Distrito_Federal_Brasil.png" alt="logo" width=160 height=188>
+    <img src="http://www.df.gov.br/wp-conteudo/uploads/2015/10/Bras%C3%A3o_do_Distrito_Federal_Brasil.png" alt="logo" width=160 height=188>
     </center>
-    <a href="#"><b>SIEST</b>DF</a>
+    <a href="../../index2.html"><b>SIEST</b>DF</a>
   </div>
-  <!-- /.login-logo -->
-  <div class="login-box-body">
 
+  <div class="register-box-body">
+    <p class="login-box-msg">Alterar senha</p>
 
-    <form action="loginrestrito.html" method="post">
+    <form action="../../index.html" method="post">
+      <div class="form-group has-feedback">
+        <input type="text" class="form-control" placeholder="CPF">
+      </div>
+      <div class="form-group has-feedback">
+        <input type="password" class="form-control" placeholder="Senha atual">
+      </div>
+      <div class="form-group has-feedback">
+        <input type="password" class="form-control" placeholder="Nova senha">
+      </div>
+      <div class="form-group has-feedback">
+        <input type="password" class="form-control" placeholder="Confirme nova senha">
+      </div>
       <div class="row">
-          <div class="col-xs-6">
-           <button type="submit" class="btn btn-primary btn-block btn-flat">Acesso Restrito</button>
+        <div class="col-xs-8">
+          <div class="checkbox icheck">
           </div>
-          <div class="col-xs-6">
-            <button type="submit" class="btn btn-primary btn-block btn-flat">Acesso Público</button>
-          </div>
+        </div>
+        <!-- /.col -->
+        <div class="col-xs-4">
+          <button type="submit" class="btn btn-primary btn-block btn-flat">Enviar</button>
+        </div>
+        <!-- /.col -->
       </div>
     </form>
-
-<!--
-        <form action="#" method="post">
-          <div class="row">
-            <div class="col-xs-6">
-              <button type="submit" class="btn btn-primary btn-block btn-flat">Acesso Público</button>
-            </div>
-          </div>
-        </form>
--->
-
-
-<br />
-    <a href="recuperarsenha.html">Recuperar senha</a><br>
-    <a href="alterarsenha.html" class="text-center">Alterar senha</a> <br /> <br />
-    <a href="registro.html" class="text-center">Solicitação de Acesso</a>
-
   </div>
-  <!-- /.login-box-body -->
+  <!-- /.form-box -->
 </div>
-<!-- /.login-box -->
+<!-- /.register-box -->
 
 <!-- jQuery 3 -->
 <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
